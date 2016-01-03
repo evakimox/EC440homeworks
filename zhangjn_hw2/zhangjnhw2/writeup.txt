@@ -1,0 +1,11 @@
+1. Get a bread board, LED, resistor and some wires to set up the electric circuit.
+2. cd to /sys/class/gpio to export the gpio17
+3. cd to the gpio17
+4. using echo to change the direction to 'out'
+5. echo the value to 1 in order to make sure the electricity all work
+6. open emacs and write all the commands into 3 different script files
+7. chmod +x the .sh files to make them executable
+8. go to /etc/systemd/system and generate one .timer file and 2 .service files
+9. look up the manual and using emacs to edit the important variables in the unit files
+10. save and type systemctl start +unit file names
+11. debug and makesure the led blinks

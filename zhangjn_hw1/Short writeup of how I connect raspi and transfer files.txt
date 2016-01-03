@@ -1,0 +1,13 @@
+1. Connect the raspi with Ethernet cable and power it up.
+2. Log in as zhangjn and then su to root
+3. ifconfig 
+4. read the ip is 128.197.128.251
+5. Turn on my mac and open terminal. sftp to zhangjn@128.197.128.251
+6. Go back to the raspi and pwd so that I know where I am 
+7. Cd . . to the main directory and then mkdir zhangjnsfile
+8. Then I pacman and tee the information to a txt file(EC440HW1_list.txt)
+9. It is automatically saved in the zhangjnsfile directory 
+10. I get back to my mac type cd .. 
+11. cd zhangjnsfile
+12. get EC440HW1_list.txt
+13. Then I go to finder search for it.

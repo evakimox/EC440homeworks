@@ -1,0 +1,12 @@
+[Unit]
+Description= "Timer"
+Requires= flash.service
+After= flash.service
+
+[Timer]
+Unit= toggle.service
+AccuracySec=1 us
+OnActiveSec= 500ms
+OnUnitActiveSec= 500ms
+
+

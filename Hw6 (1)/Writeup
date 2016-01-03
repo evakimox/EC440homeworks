@@ -1,0 +1,7 @@
+Team member:Dongtai Du & Xinzhu Xu
+
+User guide: please put the files(.c file, .sh file and Makefile)under the same directory, and do ./a.sh, if the module has been build successfully, do to the /dev directory and do echo '(something)'>MorseToLed, and you can see the LED(GPIO 17) toggles as the morse code we defined.
+
+What we have done: we have manage to build a device driver to make the user input a sequence of English letters and make the GPIO17 flashes out Morse code(we defined the rules ourself) corresponding to the letters.
+
+

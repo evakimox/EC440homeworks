@@ -1,0 +1,9 @@
+[Unit]
+Description= "activate/deactivate"
+StopWhenUnneeded= true
+
+[Service]
+Type= simple
+ExecStart= /activate.sh
+ExecStop= /deactivate.sh
+RemainAfterExit= true

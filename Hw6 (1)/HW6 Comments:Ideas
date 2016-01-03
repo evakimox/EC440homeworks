@@ -1,0 +1,4 @@
+HW6 Comments/Ideas
+
+   I'm Dongtai Du and my partner is Xinzhu Xu. We decided to do the Option 1b, Which is the morse code for LED. 
+   Basically we set our own rule for the morse code, which is if you input a sequence of english characters(either upper or lower case), the LED would implement certain actions in a sequence relating to each character. For instance, 'x' would let the LED keep turned off for 4s, while 'a' would let the LED keep turned off for 4s and be lighting for 2s and then be turned off. Moreover,Each turn if you write something new to the device, it would replace the previous input and only implement the current input.

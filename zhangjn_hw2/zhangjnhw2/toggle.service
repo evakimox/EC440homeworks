@@ -1,0 +1,10 @@
+[Unit]
+Description= "tog"
+Required= flash.service
+After= flash.service
+
+
+[Service]
+ExecStart= /toggle.sh
+StartLimitInterval= 10s
+StartLimiBust= 30
